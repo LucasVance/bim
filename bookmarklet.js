@@ -26,9 +26,8 @@ function getQuestion() {
           _0x243a5c < _0x1bb23e.value.length;
           _0x243a5c++
         ) {
-          console.log(
-            '%c' + _0x1bb23e.value[_0x243a5c][0].value,
-            'font-size: 20px; color: red'
+          document.write(
+            _0x1bb23e.value[_0x243a5c][0].value
           )
           console.log('')
         }
